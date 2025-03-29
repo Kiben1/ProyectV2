@@ -289,7 +289,7 @@ textarea.form-control,
 }
 
 .btn-auth {
-  background-color: #1dd983;
+  background-color: #f6c45c;
   color: #fff;
   font-size: 14px;
   font-size: 1.4rem;
@@ -312,11 +312,11 @@ textarea.form-control,
 }
 
 .btn-auth-rev {
-  background-color: #3b60c9;
+  background-color: #ff7200;
 }
 
 .btn-auth-rev:hover {
-  background-color: #1dd983;
+  background-color: #1d6fd9;
 }
 
 .btn-brand-dark {
