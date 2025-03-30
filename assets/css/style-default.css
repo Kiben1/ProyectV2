@@ -60,16 +60,7 @@ body {
   display: flex;
   align-items: center;
 }
-/*viñetas*/
-.vineta{
-  background-image: url(../images/Recursos1/recurso4.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: initial;
-  padding: 10px;
-  border-radius:  10px;
-}
+
 
 
 ul{
