@@ -46,6 +46,28 @@ body {
   color: #3a3b3c;
 }
 
+/*portada*/
+.portada{
+  background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgb(0,0,0,0.5)),
+        url(../images/Imagenes1/ImagenPortada/portada.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 110vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+}
+ul{
+  color: white;
+  list-style-type: disc;
+
+}
+li::before{
+  content: " - ";
+}
 .no-scroll {
   overflow: hidden;
 }
@@ -271,7 +293,7 @@ textarea.form-control,
 }
 
 .btn-brand {
-  background-color: #3b60c9;
+  background-color: #172645;
   color: #fff;
   padding: 15px 30px;
   text-transform: uppercase;
@@ -285,7 +307,7 @@ textarea.form-control,
 .btn-brand:focus,
 .btn-brand:active {
   background-color: #fff;
-  color: #3a3b3c;
+  color: #322c91;
 }
 
 .btn-auth {
@@ -320,7 +342,7 @@ textarea.form-control,
 }
 
 .btn-brand-dark {
-  background-color: #2f4da1;
+  background-color: #191035;
   border-color: #fff;
 }
 
@@ -337,8 +359,8 @@ textarea.form-control,
 }
 
 .btn-job {
-  background-color: #1dd983;
-  color: #fff;
+  background-color: #f6c45c;
+  color: #000000;
   text-transform: uppercase;
   font-size: 18px;
   font-size: 1.8rem;
@@ -2606,17 +2628,6 @@ blockquote:before,
   position: relative;
 }
 
-#slider-area .single-slide-wrap {
-  background-color: #000;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: #fff;
-  padding: 155px 0 320px;
-  position: relative;
-  z-index: 1;
-}
-
 #slider-area .single-slide-wrap .slider-content h2 {
   font-size: 100px;
   font-size: 10rem;
@@ -2822,7 +2833,7 @@ blockquote:before,
 }
 
 #upcoming-area .upcoming-event-wrap {
-  background-color: #3b60c9;
+  background-color: #191035;
   padding: 40px;
   color: #fff;
   position: relative;
@@ -2856,7 +2867,7 @@ blockquote:before,
 
 #upcoming-area .upcoming-event-wrap .upcoming-event-content .owl-nav button {
   outline: none;
-  background-color: #5481ff;
+  background-color: #191035;
   width: 45px;
   height: 45px;
   font-size: 20px;
@@ -3830,8 +3841,8 @@ blockquote:before,
 }
 
 #about-area .about-area-wrapper .about-content-wrap {
-  background-color: #ecf1f5;
-  border: 10px solid #dbe5f3;
+  background-color: #ffffff;
+  border: 10px solid #0c0d0e;
   padding: 36px 10px 40px 260px;
 }
 
@@ -3943,8 +3954,8 @@ blockquote:before,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-top: 15px;
-  height: 250px;
+  margin-top: 20px;
+  height: 300px;
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -4257,7 +4268,7 @@ blockquote:before,
 /*--== Our Responsibility Area Start ==--*/
 
 #responsibility-area {
-  background-color: #ecf1f5;
+  background-color: #f6c45c;
 }
 
 #responsibility-area .single-responsibility {
