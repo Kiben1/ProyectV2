@@ -60,6 +60,18 @@ body {
   display: flex;
   align-items: center;
 }
+/*viñetas*/
+.vineta{
+  background-image: url(../images/Recursos1/recurso4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  padding: 10px;
+  border-radius:  10px;
+}
+
+
 ul{
   color: white;
   list-style-type: disc;
@@ -4589,7 +4601,25 @@ blockquote:before,
 .single-blog-post .blog-content {
   background-color: #fff;
   padding: 30px;
-  color: #3a3b3c;
+  color: #000000;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid #0c0d0e;
+}
+.single-blog-post1 .blog-content {
+  background-color: #f6c45c;
+  padding: 30px;
+  color: #0c0c0c;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #0c0d0e;
+}
+.single-blog-post1 .blog-content h3 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 25px;
 }
 
 .single-blog-post .blog-content h3 {
@@ -4601,6 +4631,10 @@ blockquote:before,
 }
 
 .single-blog-post .blog-content h3 a {
+  color: #172a5a;
+}
+
+.single-blog-post1 .blog-content h3 a {
   color: #131c33;
 }
 
@@ -5588,8 +5622,8 @@ blockquote:before,
 }
 
 #footer-area .footer-bottom {
-  background-color: #3b60c9;
-  color: #fff;
+  background-color: #f6c45c;
+  color: #000000;
   padding: 20px 0;
 }
 
