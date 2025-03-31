@@ -61,6 +61,22 @@ body {
   align-items: center;
 }
 
+@media(max-width:700px){
+  .portada{
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 110%;
+    min-width: 100%;
+    margin: 0;
+    padding: -100;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 
 
 ul{
@@ -4453,11 +4469,12 @@ blockquote:before,
     background-size: 100% 100%;
     background-position: center;
     margin: 0;
-    padding: 0.1;
+    padding: -100;
     overflow: hidden;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
 }
 
 #page-title-area:after {
