@@ -61,7 +61,7 @@ body {
   align-items: center;
 }
 
-@media(max-width:700px){
+@media(max-width:768px){
   .portada{
     height: 100%;
     background-size: 100% 100%;
@@ -74,6 +74,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .slider-content h2{
+    margin-top: 150px;
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .slider-content h3{
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .slider-content p{
+    font-size: 20px;
+    font-size: 1.5rem;
+    line-height: 1;
   }
 }
 
@@ -5870,7 +5886,7 @@ blockquote:before,
   #upcoming-area .upcoming-event-wrap .up-event-titile h3 {
     padding: 10px 20px;
     font-size: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 200px;
   }
 
