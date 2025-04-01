@@ -3325,7 +3325,7 @@ blockquote:before,
 }
 
 .event-page-content-wrap .all-event-list .single-upcoming-event {
-  background-color: #3b60c9;
+  background-color: #172645;
   color: #fff;
   padding: 30px;
   margin-top: 30px;
@@ -4004,6 +4004,7 @@ blockquote:before,
   max-height: 315px;
   min-width: 100%;
 }
+
 
 .gallery-gird .col-lg-3 .single-gallery-item .gallery-hvr-wrap {
   background-color: #3b60c9;
@@ -7282,3 +7283,76 @@ blockquote:before,
     width: 150px;
   }
 }
+/* Inicio redes solciales*/
+/* Estilo general para el contenedor de redes sociales */
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;  /* Espaciado entre cada enlace */
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo para los enlaces */
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/* Estilo para los íconos */
+.social-icon {
+  width: 60px; /* Tamaño de los íconos */
+  height: 60px; /* Tamaño de los íconos */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* Estilo para el texto debajo de los íconos */
+.social-text {
+  margin-top: 10px;  /* Espaciado entre el ícono y el texto */
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Efecto de hover para los íconos */
+.social-link:hover .social-icon {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .social-container {
+    gap: 20px;
+  }
+
+  .social-link {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-container {
+    gap: 15px;
+  }
+
+  .social-link {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-text {
+    font-size: 12px;
+  }
+}
+
+/*Fin redes solciales*/
