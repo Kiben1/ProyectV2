@@ -93,8 +93,19 @@ body {
   }
 }
 
-
-
+.apegado a{
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.text{
+  font-size: 0.9em;
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+  
+}
 
 
 ul{
